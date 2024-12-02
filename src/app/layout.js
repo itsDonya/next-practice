@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="h-screen flex flex-col items-center justify-between">
         <AppHeader />
-        {children}
+
+        <main className="w-full min-h-full p-6">{children}</main>
+
         <AppFooter />
       </body>
     </html>
