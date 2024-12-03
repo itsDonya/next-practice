@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "Next Practice - Single Product",
+  description: "My Next.js Practice App",
+};
+
 function ProductSinglePage({ params }) {
   return (
     <div className="flex flex-col items-start justify-start gap-4">

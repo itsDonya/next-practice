@@ -1,6 +1,11 @@
 import React from "react";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Next Practice - Products",
+  description: "My Next.js Practice App",
+};
+
 function ProductsPage() {
   return (
     <section className="w-full grid grid-cols-8 gap-6">
