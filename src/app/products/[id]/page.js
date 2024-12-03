@@ -1,9 +1,13 @@
 import React from "react";
 
-export const metadata = {
-  title: "Next Practice - Single Product",
-  description: "My Next.js Practice App",
-};
+export function generateMetadata({ params }) {
+  const id = params.id;
+
+  return {
+    title: `Next Practice - Product ${id}`,
+    description: "My Next.js Practice App",
+  };
+}
 
 function ProductSinglePage({ params }) {
   return (
