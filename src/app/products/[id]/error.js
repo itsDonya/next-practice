@@ -2,7 +2,7 @@
 
 import React from "react";
 
-function SinglePageError({ error }) {
+function SingleProductError({ error }) {
   return (
     <p>
       Error while fetching product data:{" "}
@@ -11,4 +11,4 @@ function SinglePageError({ error }) {
   );
 }
 
-export default SinglePageError;
+export default SingleProductError;
