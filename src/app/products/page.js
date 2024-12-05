@@ -8,11 +8,11 @@ export const metadata = {
 
 function ProductsPage() {
   return (
-    <section className="w-full grid grid-cols-8 gap-6">
+    <section className="w-full grid grid-cols-4 lg:grid-cols-8 gap-4 lg:gap-6">
       {[...Array(20).keys()].map((item) => {
         return (
           <Link href={`/products/${item + 1}`}>
-            <div className="w-full h-44 flex flex-col items-center justify-center gap-2 border border-neutral-400 rounded-lg">
+            <div className="w-full h-28 lg:h-44 flex flex-col items-center justify-center gap-2 border border-neutral-400 rounded-lg">
               <p className="text-4xl text-neutral-400 font-bold">{item + 1}</p>
             </div>
           </Link>
