@@ -1,7 +1,9 @@
+"use client";
+
 import React from "react";
 
 function SingleProductLoading() {
-  return <div>loading product data ...</div>;
+  return <p className="text-2xl text-neutral-600 animate-pulse">Loading...</p>;
 }
 
 export default SingleProductLoading;
